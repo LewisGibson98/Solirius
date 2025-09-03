@@ -1,0 +1,22 @@
+{
+  "name": "solirius",
+  "version": "1.0.0",
+  "description": "Tech Test",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LewisGibson98/Solirius.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LewisGibson98/Solirius/issues"
+  },
+  "homepage": "https://github.com/LewisGibson98/Solirius#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  }
+}
