@@ -7,8 +7,9 @@ export class HolidayCalculator{
         }
 
         async gotostart(){
-            await this.page.goto('https://www.gov.uk/calulate-your-holiday-entitlement');
-            await this.page.getByRole('link', {name: /start now/i}).click();
+            await this.page.goto('https://www.gov.uk/calculate-your-holiday-entitlement');
+            await this.page.getByRole('button', {name: /start now/i}).click();
+            
         }
 
         // Choose type of worker
